@@ -10,15 +10,16 @@ export default {
 <template>
     <div id="app">
         <AppHeader />
-        <div class="container mt-3">
+        <div class="container mt-3 ">
             <router-view />
         </div>
     </div>
 </template>
 
-<style>
+<style scoped>
     .page {
         max-width: 400px;
         margin: auto;
     }
+    
 </style>    
